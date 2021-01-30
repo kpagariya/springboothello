@@ -41,7 +41,7 @@ public class EmailServiceController {
 	@RequestMapping("/draftEmail")
 	public String emailDraft() {	
 		
-		return "Email Draft";
+		return "Email Drafted";
 	}
 	
 	@RequestMapping("/upload")
